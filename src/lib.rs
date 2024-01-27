@@ -43,8 +43,6 @@
     allow(match_same_arms, should_implement_trait)
 )]
 
-extern crate linked_hash_map;
-
 pub mod emitter;
 pub mod parser;
 pub mod scanner;
