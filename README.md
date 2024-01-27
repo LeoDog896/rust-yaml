@@ -1,13 +1,11 @@
-# yaml-rust
+# rust-yaml
 
 The missing YAML 1.2 implementation for Rust.
 
-[![Travis](https://travis-ci.org/chyh1990/yaml-rust.svg?branch=master)](https://travis-ci.org/chyh1990/yaml-rust)
-[![AppVeyor](https://ci.appveyor.com/api/projects/status/scf47535ckp4ylg4?svg=true)](https://ci.appveyor.com/project/chyh1990/yaml-rust)
-[![crates.io](https://img.shields.io/crates/v/yaml-rust.svg)](https://crates.io/crates/yaml-rust)
-[![docs.rs](https://img.shields.io/badge/api-rustdoc-blue.svg)](https://docs.rs/yaml-rust)
+[![crates.io](https://img.shields.io/crates/v/rust-yaml.svg)](https://crates.io/crates/rust-yaml)
+[![docs.rs](https://img.shields.io/badge/api-rustdoc-blue.svg)](https://docs.rs/rust-yaml)
 
-`yaml-rust` is a pure Rust YAML 1.2 implementation,
+`rust-yaml` is a pure Rust YAML 1.2 implementation,
 which enjoys the memory safety
 property and other benefits from the Rust language.
 The parser is heavily influenced by `libyaml` and `yaml-cpp`.
@@ -18,7 +16,7 @@ Add the following to the Cargo.toml of your project:
 
 ```toml
 [dependencies]
-yaml-rust = "0.4"
+rust-yaml = "0.4"
 ```
 
 and import:
